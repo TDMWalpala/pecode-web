@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&family=Zen+Kurenaido&display=swap');
+*{
+    margin: 0;
+    padding: 0;   
+}
+body{
+    background-color: #fff;
+    width: 100%;
+    min-height: 100vh;
+    font-family:"Roboto";
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color:rgb(202, 0, 0);
+}
+header h1{
+    font-family:roboto;
+    color:#fff;
+    padding-top: 25px;
+    text-align:center;
+    text-transform:uppercase;
+    font-weight: bold;
+    text-shadow: 2px 2px #FF0000;
+}
+.section-1{
+     padding: 20px;
+     height:80vh;
+     background-color:#4D8BBC;
+     overflow: hidden;
+}
+
+.section-1 .p1{
+    font-family: "Architects Daughter";
+    text-transform: uppercase;
+    font-style: italic;
+    text-decoration: line-through;
+    font-size: 1.5rem;
+    margin-top: 50px;
+}
+.section-1 .p2{
+    font-family: "Architects Daughter";
+    font-size: 1.9rem;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    color: #EDAC4D;
+    font-weight: bold;  
+}
+.section-1 .p3,.section-2 .p6{
+    text-indent: 3em;
+    padding-top: 80px;
+    
+}
+.section-1 img{
+    width: 450px;
+    height:450px;
+    float: right;
+    padding-right: 50px;
+    margin-top: -140px;
+    
+}
+
+.section-2{
+    padding: 20px;
+    padding-top: 70px;
+    height:80vh;
+    background-color:#EDAC4D;
+    overflow: hidden;
+}
+.section-2 .p4{
+    font-family:"Zen Kurenaido";
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-style:italic;
+    text-decoration: line-through;
+}
+
+.section-2 .p5{
+    font-family:"Zen Kurenaido";
+    font-size: 1.9rem;
+    color:#E4290A;
+    text-transform: uppercase;
+}
+.section-2 img{
+    width: 500px;
+    height:450px;
+    float: right;
+    padding-right: 50px;
+    margin-top: -140px;
+    
+}
